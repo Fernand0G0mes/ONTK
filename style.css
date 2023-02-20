@@ -1,309 +1,308 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Pluto";
-    scroll-behavior: smooth;
-  }
-  
-  header {
-    display: flex;
-    height: 100px;
-    padding: 0 20px;
-    background-color: #131313;
-    text-align: center;
-    justify-content: center;
-  
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav img {
-    width: 50%;
-    height: 50%;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: flex;
-    margin: 40px;
-  }
-  
-  nav ul li a {
-    color: red;
-    text-decoration: none;
-    display: flex;
-    margin: 20px;
-  }
-  
-  nav input {
-    margin-right: 10px;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  nav figure {
-    color: red;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 800;
-  }
-  
-  /*.........................::::: SECTION HOME :::::......................... */
-  
-  .home {
-    background-image: url(IMG/SLIDE1.jpg);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
-    background-color: #131313;
-    height: 850px;
-    width: auto;
-  }
-  
-  /*.........................::::: SECTION SOBRE :::::......................... */
-  
-  .sobre {
-    display: flex;
-    background: linear-gradient(32deg, rgba(255,170,0,1) 13%, rgba(19,19,19,1) 13%);
-    height: 500px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    color: #ffaa00;
-  }
-  
-  .sobre h1 {
-    font-size: 50px;
-    margin-right: 20px;
-    margin-top: 60px;
-    border-right: 20px solid #ffaa00;
-    padding-right: 20px;
-    padding-left: 90px;
-    margin-left: -100px;
-  }
-  
-  .basetexto {
-    display: inline-block;
-    flex-direction: column;
-    width: 600px;
-    height: 350px;
-    color: rgb(255, 255, 255);
-    background-color: #131313;
-    border: 2px solid #00000000;
-    padding: 25px;
-    border-radius: 30px;
-    box-shadow: inset 20px 0px 20px -12px black;
-    
-  }
-  
-  .basetexto p {
-    padding: 0px 0px 10px 10px;
-    padding-right: 40px;
-    color: #ffaa00;
-    text-align: justify;
-    font-weight: 200;
-    border-right: 20px solid #ffaa00;
-  }
-  
-  .sobre img {
-    margin-left: -210px;
-    width: auto;
-    height: 501px;
-  } 
-  
-  
-  
-  /*.........................::::: SECTION USERS :::::......................... */
-  
-  #users {
-    /*FUNDO DA SECTION*/
-    background: linear-gradient(
-      29deg,
+  margin: 0;
+  padding: 0;
+  font-family: "Pluto";
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  padding: 0 20px;
+  background-color: #131313;
+  text-align: center;
+  justify-content: center;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 50%;
+  height: 50%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+  margin: 40px;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  display: flex;
+  margin: 20px;
+}
+
+nav input {
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+nav figure {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*.........................::::: SECTION HOME :::::......................... */
+
+.home {
+  background-image: url(IMG/SLIDE1.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  background-color: #131313;
+  height: 850px;
+  width: auto;
+}
+
+/*.........................::::: SECTION SOBRE :::::......................... */
+
+.sobre {
+  display: flex;
+  background: linear-gradient(32deg, rgba(255, 170, 0, 1) 13%, rgba(19, 19, 19, 1) 13%);
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #ffaa00;
+}
+
+.sobre h1 {
+  font-size: 50px;
+  margin-right: 20px;
+  margin-top: 60px;
+  border-right: 20px solid #ffaa00;
+  padding-right: 20px;
+  padding-left: 90px;
+  margin-left: -100px;
+}
+
+.basetexto {
+  display: inline-block;
+  flex-direction: column;
+  width: 600px;
+  height: 350px;
+  color: rgb(255, 255, 255);
+  background-color: #131313;
+  border: 2px solid #00000000;
+  padding: 25px;
+  border-radius: 30px;
+  box-shadow: inset 20px 0px 20px -12px black;
+
+}
+
+.basetexto p {
+  padding: 0px 0px 10px 10px;
+  padding-right: 40px;
+  color: #ffaa00;
+  text-align: justify;
+  font-weight: 200;
+  border-right: 20px solid #ffaa00;
+}
+
+.sobre img {
+  margin-left: -210px;
+  width: auto;
+  height: 501px;
+}
+
+
+
+/*.........................::::: SECTION USERS :::::......................... */
+
+#users {
+  /*FUNDO DA SECTION*/
+  background: linear-gradient(29deg,
       #131313 7%,
       rgba(255, 170, 0, 1) 7%,
       rgba(255, 170, 0, 1) 90%,
-      #131313 90%
-    );
-    height: 750px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .cabecaUser {
-    /*NOME USER MAS 2 LINHAS*/
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-  
-  .linhausers {
-    /*LINHA DE CORATIVA AO LADO DO NOME USERS*/
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    height: 10px;
-    border-radius: 10px;
-    background-color: #131313;
-  }
-  
-  .todosOsBlocos {
-    /*CONJUNTO COM OS 3 BLOCOS*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .bloco {
-    /*BLOCO DE TODOS OS DADOS*/
-    display: inline-block;
-    margin: 20px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 550px;
-    border-radius: 10px;
-    background-color: #131313;
-    box-shadow: #00000062 0px 15px 4px -5px;
-  }
-  
-  .fotoFernando {
-    /*FOTO DO USER*/
-    width: 250px;
-    height: 200px;
-    background-image: url(IMG/Toddzaum.jpg);
-    background-size: 120%;
-    background-repeat: no-repeat;
-    background-position: bottom left -10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    border: 5px solid orange;
-  }
-  
-  .fotoJeff {
-    /*FOTO DO USER*/
-    width: 250px;
-    height: 200px;
-    background-image: url(IMG/JEv\ SOVA.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: bottom left -10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    border: 5px solid orange;
-  }
-  
-  .fotoBots {
-    /*FOTO DO USER*/
-    width: 250px;
-    height: 200px;
-    background-image: url(IMG/Bots\ Sofrido.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top left -10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    border: 5px solid orange;
-  }
-  
-  .nextback {
-    /*BOTES DE AVANÇAR E VOLTAR*/
-    padding: 20px;
-  }
-  .nextback :hover {
-    /*BOTES DE AVANÇAR E VOLTAR*/
-    opacity: 70%;
-  }
-  
-  .stats {
-    /*BASE PARA OS STATS*/
-    width: 255px;
-    height: 140px;
-    background-color: #ffaa00;
-    border-radius: 10px;
-  }
-  
-  /*..... TEXT ..... */
-  
-  .tag {
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: #ffaa00;
-  }
-  
-  .todosOsBlocos h1 {
-    color: #ffaa00;
-  }
-  
-  .stats h1 {
-    margin-top: 10px;
-    color: #131313;
-    text-align: left;
-    margin-left: 8%;
-    font-weight: 200;
-  }
-  
-  .usertexto {
-    color: #131313;
-    font-size: 40px;
-    font-weight: 900;
-  }
-  
-  .baixo :hover {
-    /*SETA PARA BAIXO*/
-    padding-top: 10px;
-    opacity: 80%;
-  }
-  
-  
-  
-  
-  
-  
-  
-  /*.........................::::: RODAPÉ :::::......................... */
-  
-  .footertext {
-    display: flex;
-    flex-direction: row;
-    background-image: url(IMG/OTK.png);
-    background-size: 10%;
-    background-position: 5px;
-    background-color: #131313;
-    background-blend-mode: multiply;
-    height: 151px;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .footertext h1 {
-    font-weight: 100;
-    font-size: 20px;
-    color: #ffaa00;
-    font-weight: 300;
-  }
-  
-  .logoONTKp img {
-    width: 50px;
-    height: 50px;
-  }
+      #131313 90%);
+  height: 750px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cabecaUser {
+  /*NOME USER MAS 2 LINHAS*/
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.linhausers {
+  /*LINHA DE CORATIVA AO LADO DO NOME USERS*/
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #131313;
+}
+
+.todosOsBlocos {
+  /*CONJUNTO COM OS 3 BLOCOS*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bloco {
+  /*BLOCO DE TODOS OS DADOS*/
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: #131313;
+  box-shadow: #00000062 0px 15px 4px -5px;
+}
+
+.fotoFernando {
+  /*FOTO DO USER*/
+  width: 250px;
+  height: 200px;
+  background-image: url(IMG/Toddzaum.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: bottom left -10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 5px solid orange;
+}
+
+.fotoJeff {
+  /*FOTO DO USER*/
+  width: 250px;
+  height: 200px;
+  background-image: url(IMG/JEv\ SOVA.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: bottom left -10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 5px solid orange;
+}
+
+.fotoBots {
+  /*FOTO DO USER*/
+  width: 250px;
+  height: 200px;
+  background-image: url(IMG/Bots\ Sofrido.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left -10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 5px solid orange;
+}
+
+.nextback {
+  /*BOTES DE AVANÇAR E VOLTAR*/
+  padding: 20px;
+}
+
+.nextback :hover {
+  /*BOTES DE AVANÇAR E VOLTAR*/
+  opacity: 70%;
+}
+
+.stats {
+  /*BASE PARA OS STATS*/
+  width: 255px;
+  height: 140px;
+  background-color: #ffaa00;
+  border-radius: 10px;
+}
+
+/*..... TEXT ..... */
+
+.tag {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffaa00;
+}
+
+.todosOsBlocos h1 {
+  color: #ffaa00;
+}
+
+.stats h1 {
+  margin-top: 10px;
+  color: #131313;
+  text-align: left;
+  margin-left: 8%;
+  font-weight: 200;
+}
+
+.usertexto {
+  color: #131313;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.baixo :hover {
+  /*SETA PARA BAIXO*/
+  padding-top: 10px;
+  opacity: 80%;
+}
+
+
+
+
+
+
+
+/*.........................::::: RODAPÉ :::::......................... */
+
+.footertext {
+  display: flex;
+  flex-direction: row;
+  background-image: url(IMG/OTK.png);
+  background-size: 10%;
+  background-position: 5px;
+  background-color: #131313;
+  background-blend-mode: multiply;
+  height: 151px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footertext h1 {
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffaa00;
+  font-weight: 300;
+}
+
+.logoONTKp img {
+  width: 50px;
+  height: 50px;
+}
