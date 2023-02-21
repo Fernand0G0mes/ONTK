@@ -1,12 +1,16 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+
+// CONTROLE AVANÇAR E VOLTAR
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+
+// CONTROLE DAS IMAGENS
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -25,4 +29,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+
 }
+
+
