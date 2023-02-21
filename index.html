@@ -8,6 +8,32 @@
     <title>ONTK-LOGIN</title>
 </head>
 <body>
+
+  <!-- SECTION CABEÇALHO ------------------------------------------------------------>
+  <header>
+    <nav>
+      <img src="IMG/OTK.png" alt="LOGO ONTALK" />
+
+      <ul>
+        <li>
+          <a href="">
+            <h1 class="bordaDir">HOME</h1>
+          </a>
+          <a href="#sobre">
+            <h1 class="bordaDir">SOBRE</h1>
+          </a>
+          <a href="#users">
+            <h1>USERS</h1>
+          </a>
+        </li>
+      </ul>
+
+      <input class="textinput" placeholder="username" />
+      <input class="textinput" placeholder="password" />
+
+      <figure id="login">LOGIN</figure>
+    </nav>
+  </header>
     
 
 
@@ -18,10 +44,13 @@
         <input id="senha" type="password" class="textinput" name="username" placeholder="password" />
         <br>
 
-        <div class="check">
-                <abbr title="Sou burro e minha mente não tem a mínima condição de memorizar uma senha">
-                <input type="checkbox"></abbr><label> Salvar senha</label>
-           </div>
+    <!-- The dots/circles -->
+    <div>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
 
         <figure id="login" class="boton" onclick="login()">LOGIN</figure>
 
