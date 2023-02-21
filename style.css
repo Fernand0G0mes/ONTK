@@ -33,15 +33,13 @@ nav ul {
 nav ul li {
   display: flex;
   margin: 40px;
-  
 }
 
 nav ul li a {
-  color:#ffaa00;
+  color: #ffaa00;
   text-decoration: none;
   display: flex;
   margin: 20px;
- 
 }
 
 .bordaDir {
@@ -50,10 +48,8 @@ nav ul li a {
 }
 
 nav ul li a :hover {
-  color:#ffe4ad;
+  color: #ffe4ad;
 }
-
-
 
 nav figure {
   color: #ffaa00;
@@ -65,7 +61,7 @@ nav figure {
 #login {
   border: 2px solid #4e3400;
   border-radius: 10px;
-  padding: 5px 14px 5px 14px ;
+  padding: 5px 14px 5px 14px;
   font-weight: 700;
   font-size: 20px;
   color: #4e3400;
@@ -106,7 +102,8 @@ input {
   height: auto;
   border-radius: 20px;
   padding: 10px;
-  box-shadow: #00000066 1px 20px 10px -5px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
+  box-shadow: #00000066 1px 20px 10px -5px, #0000004d 0px 7px 13px -3px,
+    #00000033 0px -3px 0px inset;
 }
 
 .slidehome {
@@ -121,11 +118,9 @@ input {
   opacity: 100%;
 }
 
-.iconvaievem  {
+.iconvaievem {
   opacity: 50%;
 }
-
-
 
 /*.........................::::: SECTION SOBRE :::::......................... */
 
