@@ -1,200 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
 <html lang="pt-br">
-
-</html>
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <title>ONTALK</title>
-</head>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>ONTK-LOGIN</title>
+
+</head>
 <body>
 
-  <!-- SECTION CABEÇALHO ------------------------------------------------------------>
-  <header>
-    <nav>
-      <img src="IMG/OTK.png" alt="LOGO ONTALK" />
-
-      <ul>
-        <li>
-          <a href="">
-            <h1 class="bordaDir">HOME</h1>
-          </a>
-          <a href="#sobre">
-            <h1 class="bordaDir">SOBRE</h1>
-          </a>
-          <a href="#users">
-            <h1>USERS</h1>
-          </a>
-        </li>
-      </ul>
-
-      <input class="textinput" placeholder="username" />
-      <input class="textinput" placeholder="password" />
-
-      <figure id="login">LOGIN</figure>
-    </nav>
-  </header>
-
-
-  <!-- SECTION HOME ----------------------------------------------------------------->
-  <section class="home">
     
-    
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
 
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img class="bordaredonda" src="IMG/SLIDE1.jpg" style="width:100%">
-        <div class="text">VALORANT</div>
-      </div>
 
-      <div class="mySlides fade">
-        <img class="bordaredonda" src="IMG/SLIDE2.jpg" style="width:100%">
-        <div class="text">COD</div>
-      </div>
+<div id="layoutlogin">
+    <div class="containerprincipal">
+        <input id="usuario" type="text" class="textinput" name="username" placeholder="user" />
+        <input id="senha" type="password" class="textinput" name="username" placeholder="password" />
+        <br>
 
-      <div class="mySlides fade">
-        <img class="bordaredonda" src="IMG/SLIDE3.jpg" style="width:100%">
-        <div class="text">CS:GO</div>
-      </div>
 
-      <div class="mySlides fade">
-        <img class="bordaredonda" src="IMG/SLIDE4.jpg" style="width:100%">
-        <div class="text">R6</div>
-      </div>
 
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)"><img class="iconvaievem" src="ICON/back-100.png" alt=""></a>
-      <a class="next" onclick="plusSlides(1)"><img class="iconvaievem" src="ICON/next-100.png" alt=""></a>
+        <div class="check">
+                <abbr title="Sou burro e minha mente não tem a mínima condição de memorizar uma senha">
+                <input type="checkbox"></abbr><label> Salvar senha</label>
+           </div>
+
+        <figure id="login" class="boton" onclick="login()">LOGIN</figure>
+
+
+
+
+        <img src="IMG/OTK.png" alt="">
+
+
+        
+
     </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div>
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-
-  </section>
+</div>
 
 
-  <!-- SECTION SOBRE ---------------------------------------------------------------->
-  <section id="sobre" class="sobre">
-    <img src="IMG/OTK.png" alt="">
-    <h1>SOBRE</h1>
-    <div class="basetexto">
-      <p>
-        &#160 &#160 &#160 <b>ONTK Team</b> foi criado em 2015 por um grupo de amigos
-        apenas por diversão. Grupo formado exclusivamente por Cariocas e Baianos ( que
-        no fim das contas dá no mesmo. ) que logan frequentemente com o objetivo de fazer
-        jogadas duvidosas com requinte de crueldade para a visão dos mais habilidosos. <br>
-        &#160 &#160 Jogos como: <b><i> CS:GO, Valorante, COD, Rainbow Six </i></b> estão entre os mais jogados mas nada
-        escapa da fome de fazer merda em qualquer coisa que seja multiplayer, um 5v5
-        ou um Coop de cortar árvore e fazer cabana para passar uma noite tranquila ou de
-        matar uma orda de zumbis. <br>
-        &#160 &#160 Um grupo onde o menos habilidoso deixaria o Fallen com inveja o mesnos "skilado"
-        deixaria o Aspas com depressão e o com o menor tempo de reação deixaria o Simple
-        em prantos. Sabe porque? mesmo eles sendo bons nunca serão do <b>ONTK </b> <i>"Burros ou Idiotas".</i>
-
-      </p>
-    </div>
-  </section>
-
-
-  <!-- SECTION USERS ---------------------------------------------------------------->
-  <section id="users">
-    <article class="cabecaUser">
-      <div class="linhausers"></div>
-      <h1 id="userr" class="usertexto">USERS</h1>
-      <div class="linhausers"></div>
-    </article>
-
-    <div class="todosOsBlocos">
-      <div class="nextback">
-        <a href=""><img src="ICON/icons8-back-to-100.png" alt="NEXT" /></a>
-      </div>
-
-      <div class="bloco">
-        <h1 class="tag">TodDZAUM</h1>
-        <div class="fotoFernando"></div>
-        <div class="stats">
-          <h1>
-            Nome:
-            <b> Fernando </b><br />
-            KD: <b>1.2</b> <br />
-            Games: <b>Rainbow Six / Valorant</b>
-          </h1>
-        </div>
-        <div class="baixo">
-          <a href=""><img src="ICON/double-down-100.png" alt="" /></a>
-        </div>
-      </div>
-
-      <div class="bloco">
-        <h1 class="tag">Bots</h1>
-        <div class="fotoBots"></div>
-        <div class="stats">
-          <h1>
-            Nome:
-            <b> Otávio </b><br />
-            KD: <b>4.0</b> <br />
-            Games: <b>CS:GO / War</b>
-          </h1>
-        </div>
-        <div class="baixo">
-          <a href=""><img src="ICON/double-down-100.png" alt="" /></a>
-        </div>
-      </div>
-
-      <div class="bloco">
-        <h1 class="tag">Jeff</h1>
-        <div class="fotoJeff"></div>
-        <div class="stats">
-          <h1>
-            Nome:
-            <b> Rafael </b><br />
-            KD: <b>1.1</b> <br />
-            Games: <b>CS:GO / FM</b>
-          </h1>
-        </div>
-        <div class="baixo">
-          <a href=""><img src="ICON/double-down-100.png" alt="" /></a>
-        </div>
-      </div>
-
-      <div class="nextback">
-        <a href=""><img src="ICON/icons8-next-page-90.png" alt="BACK" /></a>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- SECTION RODAPÉ -------------------------------------------------------------->
-  <div class="footertext">
-    <h1> <b> Todos os diretos reservados. <br>
-        © Copyright<br></b>
-      <p>Fernand0G0mes & Ofqueiroz</p>
-    </h1>
-    <a href=""><img src="ICON/icons8-github.svg" alt="GIT" /></a>
-    <div>
-      <a class="logoONTKp" href=""><img src="IMG/OTK.png" alt="logopequenaONTK" /></a>
-    </div>
-  </div>
-
-
-  <!-- JS -------------------------------------------------------------------------->
-  <script src="slide.js"></script>
-
+    <script src="login.js"></script>
 </body>
-
 </html>
+
