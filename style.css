@@ -62,7 +62,7 @@ nav figure {
   border: 2px solid #4e3400;
   border-radius: 10px;
   padding: 5px 14px 5px 14px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   color: #4e3400;
 }
@@ -86,14 +86,21 @@ input {
   color: #ffaa00;
 }
 
+input::placeholder {
+  color: #ffaa004f;
+}
+
+
+
 /*.........................::::: SECTION HOME :::::......................... */
 
 .home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, #0a0a0a 0%, #131313 2%);
-  height: 850px;
+  height: 750px;
   width: auto;
 }
 
@@ -122,7 +129,100 @@ input {
   opacity: 50%;
 }
 
-/*.........................::::: SECTION SOBRE :::::......................... */
+
+/*  Slideshow container ::::::::::: */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 20px;
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+.bordaredonda {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: #00000066 1px 20px 10px -5px, #0000004d 0px 7px 13px -3px,
+  #00000033 0px -3px 0px inset;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* POSIÇÃO "AVANÇAR" E "VOLTAR */
+.next {
+  right: -110px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: -110px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* TEXTO */
+.text {
+  color: #ffaa00;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* PONTOS INDICADORES */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  background-color: #464646;
+  border-radius: 30%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffaa00;
+}
+
+/* TRANSIÇÃO */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* SECTION SOBRE :::::.................................................. */
 
 .sobre {
   display: flex;
@@ -154,7 +254,7 @@ input {
   display: inline-block;
   flex-direction: column;
   width: 600px;
-  height: 350px;
+  height: 380px;
   color: rgb(255, 255, 255);
   background-color: #131313;
   border: 2px solid #00000000;
@@ -164,7 +264,7 @@ input {
 }
 
 .basetexto p {
-  padding: 0px 0px 10px 10px;
+  padding: -1px 0px 10px 10px;
   padding-right: 40px;
   color: #ffaa00;
   text-align: justify;
@@ -178,7 +278,7 @@ input {
   height: 501px;
 }
 
-/*.........................::::: SECTION USERS :::::......................... */
+/* SECTION USERS :::::.................................................. */
 
 #users {
   /*FUNDO DA SECTION*/
@@ -330,7 +430,7 @@ input {
   opacity: 80%;
 }
 
-/*.........................::::: RODAPÉ :::::......................... */
+/* RODAPÉ :::::.................................................. */
 
 .footertext {
   display: flex;
@@ -358,3 +458,16 @@ input {
   width: 50px;
   height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
