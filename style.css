@@ -1,3 +1,4 @@
+/*.........................::::: SECTION 1 :::::......................... */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,6 @@ header {
   background-color: #131313;
   text-align: center;
   justify-content: center;
-
 }
 
 nav {
@@ -21,8 +21,8 @@ nav {
 }
 
 nav img {
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
 }
 
 nav ul {
@@ -33,44 +33,109 @@ nav ul {
 nav ul li {
   display: flex;
   margin: 40px;
+  
 }
 
 nav ul li a {
-  color: red;
+  color:#ffaa00;
   text-decoration: none;
   display: flex;
   margin: 20px;
+ 
 }
 
-nav input {
-  margin-right: 10px;
-  background-color: rgb(255, 255, 255);
+.bordaDir {
+  padding-right: 40px;
+  border-right: 2px solid #4e3400;
 }
+
+nav ul li a :hover {
+  color:#ffe4ad;
+}
+
+
 
 nav figure {
-  color: red;
+  color: #ffaa00;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
 }
 
+#login {
+  border: 2px solid #4e3400;
+  border-radius: 10px;
+  padding: 5px 14px 5px 14px ;
+  font-weight: 700;
+  font-size: 20px;
+  color: #4e3400;
+}
+
+#login:hover {
+  border: 2px solid #ffe4ad;
+  background-color: #ffaa00;
+  color: #131313;
+}
+
+input {
+  border-radius: 10px;
+  padding: 9px;
+  border: 2px solid #4e3400;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 10px;
+}
+
+.textinput {
+  color: #ffaa00;
+}
+
 /*.........................::::: SECTION HOME :::::......................... */
 
 .home {
-  background-image: url(IMG/SLIDE1.jpg);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: center;
-  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #0a0a0a 0%, #131313 2%);
   height: 850px;
   width: auto;
 }
+
+.slide1 {
+  width: 1600px;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: #00000066 1px 20px 10px -5px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
+}
+
+.slidehome {
+  margin-top: -35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconvaievem:hover {
+  opacity: 100%;
+}
+
+.iconvaievem  {
+  opacity: 50%;
+}
+
+
 
 /*.........................::::: SECTION SOBRE :::::......................... */
 
 .sobre {
   display: flex;
-  background: linear-gradient(32deg, rgba(255, 170, 0, 1) 13%, rgba(19, 19, 19, 1) 13%);
+  background: linear-gradient(
+    32deg,
+    rgba(255, 170, 0, 1) 13%,
+    rgba(19, 19, 19, 1) 13%
+  );
   height: 500px;
   width: auto;
   display: flex;
@@ -101,7 +166,6 @@ nav figure {
   padding: 25px;
   border-radius: 30px;
   box-shadow: inset 20px 0px 20px -12px black;
-
 }
 
 .basetexto p {
@@ -119,17 +183,17 @@ nav figure {
   height: 501px;
 }
 
-
-
 /*.........................::::: SECTION USERS :::::......................... */
 
 #users {
   /*FUNDO DA SECTION*/
-  background: linear-gradient(29deg,
-      #131313 7%,
-      rgba(255, 170, 0, 1) 7%,
-      rgba(255, 170, 0, 1) 90%,
-      #131313 90%);
+  background: linear-gradient(
+    29deg,
+    #131313 7%,
+    rgba(255, 170, 0, 1) 7%,
+    rgba(255, 170, 0, 1) 90%,
+    #131313 90%
+  );
   height: 750px;
   width: auto;
   display: flex;
@@ -147,7 +211,7 @@ nav figure {
 }
 
 .linhausers {
-  /*LINHA DE CORATIVA AO LADO DO NOME USERS*/
+  /*LINHA DECORATIVA AO LADO DO NOME USERS*/
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -226,7 +290,6 @@ nav figure {
   /*BOTES DE AVANÇAR E VOLTAR*/
   padding: 20px;
 }
-
 .nextback :hover {
   /*BOTES DE AVANÇAR E VOLTAR*/
   opacity: 70%;
@@ -271,12 +334,6 @@ nav figure {
   padding-top: 10px;
   opacity: 80%;
 }
-
-
-
-
-
-
 
 /*.........................::::: RODAPÉ :::::......................... */
 
