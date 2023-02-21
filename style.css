@@ -63,15 +63,10 @@ nav figure {
   border-radius: 10px;
   padding: 5px 14px 5px 14px;
   font-weight: 400;
-  font-size: 20px;
-  color: #4e3400;
+  font-size: 15px;
+  color: #815600;
 }
 
-#login:hover {
-  border: 2px solid #ffe4ad;
-  background-color: #ffaa00;
-  color: #131313;
-}
 
 input {
   border-radius: 10px;
